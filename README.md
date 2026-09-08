@@ -15,13 +15,11 @@ def can_buy(age):
         return True
     return False
 
+
 Гарсиев Илья — программист
 Гарсиев Илья — ревьюер
 
 
-
-
-### Задание 2
 
 ```markdown
 ## 2. Задание 2 — Пароль
@@ -46,9 +44,6 @@ def is_strong(password):
 
 
 
-### Задание 3
-
-```markdown
 ## 3. Задание 3 — Скидка
 
 ### 1. Техническое задание
@@ -71,10 +66,6 @@ def final_price(price):
 Гарсиев Илья — ревьюер
 
 
-
-### Задание 4
-
-```markdown
 ## 4. Задание 4 — Баллы
 
 ### 1. Техническое задание
@@ -116,9 +107,6 @@ def is_pass(score):
 def need_jacket(temp):
     if temp < 10:
         return False
-
-
-
 
 
 ### 4. Роли
