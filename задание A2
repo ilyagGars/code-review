@@ -1,0 +1,12 @@
+def check_pin(raw):
+    try:
+        pin = str(raw)
+        if not pin.isdigit():
+            return "bad"
+        if len(pin) != 4:
+            return "bad"
+        return "ok"
+    except Exception:
+        return "bad"
+    finally:
+        print("пин проверен")
